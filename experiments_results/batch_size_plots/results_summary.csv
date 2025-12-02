@@ -1,0 +1,4 @@
+Experiment,Alpha,Lambda,Beta,Epsilon,Best_Top1,Best_Top5,Best_mAP10,Final_Top1,Final_Top5,Final_mAP10
+Batch Size = 64,1.0,1.0,1.0,0.5,74.04,91.03,81.86,73.41,90.09,81.09
+Batch Size = 128,1.0,1.0,1.0,0.5,79.73,93.34,85.98,79.69,91.41,85.30
+Batch Size = 256,1.0,1.0,1.0,0.5,79.45,93.06,85.49,79.24,91.96,85.17

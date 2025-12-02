@@ -1,0 +1,3 @@
+Experiment,Alpha,Lambda,Beta,Epsilon,Best_Top1,Best_Top5,Best_mAP10,Final_Top1,Final_Top5,Final_mAP10
+Trained from Pre-trained Resnet-50 backbone,1.0,1.0,1.0,0.5,80.29,93.58,86.45,80.29,93.58,86.45
+Trained from Scratch,1.0,1.0,1.0,0.5,74.69,90.50,81.78,74.68,90.29,81.74

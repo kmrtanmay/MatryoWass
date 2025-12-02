@@ -1,0 +1,5 @@
+Experiment,Alpha,Lambda,Beta,Epsilon,Best_Top1,Best_Top5,Best_mAP10,Final_Top1,Final_Top5,Final_mAP10
+Only Wasserstein Loss,0.0,1.0,1.0,0.5,1.02,5.01,2.94,1.00,5.00,2.93
+Only Matryoshkha Loss,1.0,0.0,1.0,0.5,79.59,93.45,85.65,79.46,92.12,85.23
+MWRL,1.0,1.0,1.0,0.5,80.29,93.58,86.45,80.29,93.58,86.45
+Independently Trained FF,1.0,1.0,1.0,5.0,79.73,93.34,85.98,78.96,91.52,84.63

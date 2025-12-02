@@ -1,0 +1,18 @@
+# Folders to ignore
+checkpoints/
+runs/
+logs/
+results/
+loss_plots/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pdf
+
+# Local temp / state files
+.dist_port
+
+# Scripts you don't want in the repo
+train_mwrl_distributed.py
+run_mwrl_training.py

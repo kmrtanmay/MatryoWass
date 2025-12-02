@@ -1,0 +1,16 @@
+% Multi-Experiment Results Table
+\begin{table*}[t]
+\centering
+\caption{Comparison of MWRL Hyperparameter Configurations}
+\label{tab:mwrl_hyperparams}
+\begin{tabular}{lcccc|ccc|ccc}
+\hline
+\multirow{2}{*}{Experiment} & \multicolumn{4}{c|}{Hyperparameters} & \multicolumn{3}{c|}{Best} & \multicolumn{3}{c}{Final} \\
+& $\alpha$ & $\lambda$ & $\beta$ & $\epsilon$ & Top-1 & Top-5 & mAP@10 & Top-1 & Top-5 & mAP@10 \\
+\hline
+β=0.1 & 1.0 & 1.0 & 0.1 & 0.5 & 79.90 & 93.82 & 85.68 & 79.81 & 92.22 & 85.45 \\
+β=1 & 1.0 & 1.0 & 1.0 & 0.5 & 80.29 & 93.58 & 86.45 & 80.29 & 93.58 & 86.45 \\
+β=10 & 1.0 & 1.0 & 10.0 & 0.5 & 77.91 & 91.88 & 84.54 & 77.83 & 91.76 & 84.43 \\
+\hline
+\end{tabular}
+\end{table*}
